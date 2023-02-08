@@ -1,7 +1,7 @@
 # My config with LSP ### (based on thePrimagean config as a starting point, but
 with my additions)
 
-# Step 1 Installation
+# Step 1: Installation
 
 * Install neovim (ubuntu)
 
@@ -82,4 +82,4 @@ and then
 * You Require rimgrep installed to have grep fuzzy finder active
 * (to be able to search for text within files
 
-testing for merge conflict documentation1
+testing for merge conflict documentation
