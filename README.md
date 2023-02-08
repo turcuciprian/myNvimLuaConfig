@@ -67,7 +67,7 @@ and then
 * c - change word (ex cw - will remove the text until the first character in the word
 
 * ciw'Ctrl+r"' - wrap a word in single quotes
-* <selection>c""(Esc) - wraps the whole selection in " "
+* <selection>c""(Esc)P - wraps the whole selection in " "
 
  * vi{ - select everything between {} that I am in or on now
 
