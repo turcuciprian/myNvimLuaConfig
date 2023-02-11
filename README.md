@@ -71,6 +71,17 @@ and then
 
  * vi{ - select everything between {} that I am in or on now
 
+## Git conflict solve approach
+
+- When you pull you sometimes get conflicts to love them: 
+1. do a _gs
+2. go to the conflicted file 1 (choose any conflicted file) and press o on it
+3. write :Gdiffsplit! on the new file that opens
+4. with CTRL+ h for left and CTRL+L for right go to the version you want to accept and write :diff put in the command, that will put the selected version in the middle
+5. in the middle write :w to save and :Gwrite to stage the resolved conflict in git
+6. then you can go back to the presumably already opened _gs window and write cc to commit. The commit message is already in there, you can save and exit
+7. Lastly, you :Git push to push the commands to the repo
+
 ## Comands:
 
 * :lua ColorMyPencils() - sets the color theme and transparent background
@@ -82,4 +93,3 @@ and then
 * You Require rimgrep installed to have grep fuzzy finder active
 * (to be able to search for text within files
 
-testing for merge conflict documentation[ok, but let me write it this time please]
