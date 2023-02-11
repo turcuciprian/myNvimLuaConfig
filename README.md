@@ -70,7 +70,7 @@ and then
 * <selection>c""(Esc)P - wraps the whole selection in " "
 
  * vi{ - select everything between {} that I am in or on now
-
+ I d
 ## Comands:
 
 * :lua ColorMyPencils() - sets the color theme and transparent background
@@ -82,4 +82,4 @@ and then
 * You Require rimgrep installed to have grep fuzzy finder active
 * (to be able to search for text within files
 
-testing for merge conflict documentation[local, I insist! test]
+testing for merge conflict documentation[but I am main! I decide everything!]
