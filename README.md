@@ -80,7 +80,7 @@ and then
 4. with CTRL+ h for left and CTRL+L for right go to the version you want to accept and write :diff put in the command, that will put the selected version in the middle
 5. in the middle write :w to save and :Gwrite to stage the resolved conflict in git
 6. then you can go back to the presumably already opened _gs window and write cc to commit. The commit message is already in there, you can save and exit
-7. Lastly, you ":Git push" to push the commands to the repo3
+7. Lastly, you ":Git push" to push the commands to the repo0
 
 ## Comands:
 
