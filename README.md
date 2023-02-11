@@ -82,4 +82,4 @@ and then
 * You Require rimgrep installed to have grep fuzzy finder active
 * (to be able to search for text within files
 
-testing for merge conflict documentation[i get to write stuff too, I have write permissions!]
+testing for merge conflict documentation[i want to write stuff too, don't get me wrong!]
