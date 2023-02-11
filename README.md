@@ -75,11 +75,11 @@ and then
 
 - When you pull you sometimes get conflicts to love them: 
 1. do a _gs (space then g then s, to enter a new split window with git status)
-2. go to the conflicted file 1 (choose any conflicted file) and press o on it
+2. the conflicted files will appear in merged with a U on their left. go to the conflicted file 1 (choose any conflicted file) and press "o" on it
 3. write :Gdiffsplit! on the new file that opens
-4. with CTRL+ h for left and CTRL+L for right go to the version you want to accept and write :diff put in the command, that will put the selected version in the middle
+4. with CTRL+ h for left and CTRL+L for right go to the version you want to accept and press "dp" on the modification from the left or right panel in the command, that will put the selected version in the middle
 5. in the middle write :w to save and :Gwrite to stage the resolved conflict in git
-6. then you can go back to the presumably already opened _gs window and write cc to commit. The commit message is already in there, you can save and exit
+6. then you can go back to the presumably already opened _gs window and write cc to commit. The commit message is already in there, you can save (:w) and exit
 7. Lastly, you ":Git push" to push the commands to the repo
 
 ## Comands:
@@ -90,6 +90,5 @@ and then
 
 ## Notes
 
-* You Require rimgrep installed to have grep fuzzy finder active
-* (to be able to search for text within files
-
+*!!!!!!!!! IMPORTANT !!!!!!!!!  You Require rimgrep installed to have grep fuzzy finder active
+* (to be able to search for text within the files of your project)
