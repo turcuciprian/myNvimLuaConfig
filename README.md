@@ -70,6 +70,11 @@ and then
 
  * vi{ - select everything between {} that I am in or on now
 
+### comment multiple lines
+Step 1: Go to starting line, and press Ctrl+v
+Step 2: go to end line and press Shift+I
+Step 3: write "# " (no quotes) and press esc
+
 ### Git conflict solve approach
 
 - When you pull you sometimes get conflicts to love them: 
