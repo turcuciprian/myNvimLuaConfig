@@ -70,7 +70,7 @@ and then
 
  * vi{ - select everything between {} that I am in or on now
 
-### comment multiple lines
+### Comment multiple lines
 1. Go to starting line, and press Ctrl+v
 2. go to end line and press Shift+I
 3. write "# " (no quotes) and press esc
