@@ -66,6 +66,7 @@ and then
 * c - change word (ex cw - will remove the text until the first character in the word
 
 * ciw'Ctrl+r"' - wrap a word in single quotes
+* v(select code)xi(starting character<s>)Esc then pi(end character<s>)Esc - steps to wrap selected text inside one or more characters
 * <selection>c""(Esc)P - wraps the whole selection in " "
 
  * vi{ - select everything between {} that I am in or on now
